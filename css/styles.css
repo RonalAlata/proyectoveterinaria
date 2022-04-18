@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body{
+    background-image: url("../images/fondo.jpg");
+    background-size: 125%;
+    font-family: 'Roboto', sans-serif;
+}
+  
+.container {
+    width: 500px;
+    background: rgba(43, 62, 60, 0.817);
+    padding: 35px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 20px;
+    font-family: "Roboto";
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    transform: translate(10px, -18px);
+    font-size: 16px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-control {
+    min-width: 350px;
+}
+
+.container2 {
+    width: 1100px;
+    background: rgba(43, 62, 60, 0.817);
+    padding: 35px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 20px;
+    font-family: "Robotoi";
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    transform: translate(10px, -18px);
+    font-size: 16px;
+}
+
+.container3 {
+    width: 700px;
+    background: rgba(43, 62, 60, 0.817);
+    padding: 35px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 20px;
+    font-family: "Robotoi";
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    transform: translate(10px, -18px);
+    font-size: 16px;
+}

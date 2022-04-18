@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <link href="css/stylesLogin" rel="stylesheet">
+    
+</head>
+<body>
+  <div class="container">
+    <div class="backbox">
+      <div class="loginMsg">
+        <div class="textcontent">
+          <p class="title">¿Aún no tienes una cuenta?</p>
+          <p>Crea una cuenta para poder iniciar sesión.</p>
+          <button id="switch1">Registrarme</button>
+        </div>
+      </div>
+      <div class="signupMsg visibility">
+        <div class="textcontent">
+          <p class="title">¿Ya tienes una cuenta?</p>
+          <p>Inicia sesión para poder ingresar al sistema.</p>
+          <button id="switch2">Iniciar Sesión</button>
+        </div>
+      </div>
+    </div>
+    <!-- backbox -->
+    <div class="frontbox">
+      <form class="form" action="validar.php" method="post">
+          <div class="login">
+            <h2 class="brand">Veterinaria Canevaro</h2>
+            <h2>Ingresar</h2>
+            <div class="inputbox">
+              <input type="text" name="mail" placeholder="  Correo Electronico" required placeholder="">
+              <input type="password" name="pass" placeholder="  Contraseña" required placeholder="">
+            </div>
+            <button type="submit">Iniciar Sesión</button>
+          </div>
+      </form>
+
+      <form action="registrar.php" method="post">
+        <div class="signup hide">
+          <h2>Crear una cuenta</h2>
+          <div class="inputbox">
+            <input type="text" name="realname" placeholder="  Nombre" required placeholder="">
+            <input type="text" name="nick" placeholder="  Correo Electronico" required placeholder="">
+            <input type="password" name="pass" placeholder="  Contraseña" required placeholder="">
+          </div>
+          <button type="submit">Registrar</button>
+        </div>
+      </form>
+    </div>
+    <!-- frontbox -->
+  </div>
+
+  <script src="./login.js"></script>
+</body>
+</html>
